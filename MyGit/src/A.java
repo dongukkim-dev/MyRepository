@@ -6,5 +6,9 @@ public class A {
 		System.out.println("Change in devB branch");
 		B b = new B();
 		b.sayB();
+		
+		System.out.println("Change in devC branch");
+		C c = new C();
+		c.sayC();
 	}
 }
